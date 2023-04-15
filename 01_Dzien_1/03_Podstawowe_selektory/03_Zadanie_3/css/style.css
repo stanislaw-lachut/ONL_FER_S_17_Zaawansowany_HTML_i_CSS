@@ -11,3 +11,9 @@ p {
   font-family: sans-serif;
   line-height: 1.5em;
 }
+[class = text]{
+  color: white;
+  background-color: #333;
+}
+
+*:first-child > *:first-child

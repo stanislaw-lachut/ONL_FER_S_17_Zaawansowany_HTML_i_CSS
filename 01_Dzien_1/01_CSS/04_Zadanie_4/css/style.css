@@ -28,8 +28,11 @@ h1, h2, h3 {
 }
 
 .page-title {
+  color: #FC0031;
   margin-top: 0;
   font-family: sans-serif;
+  background-color: #FC0031;
+  line-height: 1.6px;
 }
 
 .btn {

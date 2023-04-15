@@ -33,3 +33,14 @@
 }
 
 /* tutaj nasze style */
+a [target="_blank"]{
+  color:red;
+}
+
+img:not([alt]){
+  border: 2px dotted red;
+}
+
+img[alt]{
+  border: 2px dashed green;
+}

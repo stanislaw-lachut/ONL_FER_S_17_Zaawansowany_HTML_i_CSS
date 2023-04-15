@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    min-height: 100vh;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__text{
+    font-size: 70px;
+    color: white;
+    font-family: Georgia, sans-serif;
+    text-shadow: 0 0 30px;
+    margin-top: 0;
+    padding-top: calc(50vh - 40px);
+}
+.text{
+    padding: 100px;
+    font-family: Georgia,sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

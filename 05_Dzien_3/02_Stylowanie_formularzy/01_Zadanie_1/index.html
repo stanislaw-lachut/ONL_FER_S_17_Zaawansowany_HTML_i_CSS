@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Formularze</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularze</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<form method="post" class="authForm">
+    <div class="authForm__group">
+        <label for="loginID" class="authForm_lbl">Login</label>
+        <input type="text" id="loginID" name="login" placeholder="Login" class="">
+    </div>
+    <div class="authForm__group">
+        <label for="password" class="authForm__lbl">Haslo</label>
+        <input type="password" id="password" name="password" placeholder="Haslo" class="authForm__input">
+    </div>
+    <div class="authForm__send">
 
+    </div>
+    <button type="submit" class="authForm_btn">Zaloguj</button>
+    <a href="">Zapomnialem hasla</a>
+</form>
 </body>
 </html>

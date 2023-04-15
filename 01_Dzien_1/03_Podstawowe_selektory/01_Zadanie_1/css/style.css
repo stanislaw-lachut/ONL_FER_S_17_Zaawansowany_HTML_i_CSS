@@ -21,4 +21,38 @@ body {
   font-family: sans-serif;
 }
 
+
 /* tutaj nasze style */
+
+div.module > h2 {
+  background-color: rgba(255,255,0, .5)
+}
+
+div.module > div {
+  background-color: rgba(255,255,0, .5)
+}
+
+div.module > div h2 {
+  background-color: rgba(255,255,0, .5);
+}
+
+div.module > h2 + p {
+  background-color: rgba(255,255,0,0.5 );
+}
+
+div.module > h2 ~ p:nth-of-type(3){
+  background-color: rgba(255,255,0, .5);
+}
+
+.module > h2 ~ p {
+  background-color: rgba(255,255,0, .5);
+}
+
+.module > div:first-of-type h2{
+  background-color: rgba(255,10,255, .5);
+}
+
+.module > div:last-of-type h2 + p {
+  background-color: rgba(255, 10,255, .5);
+}
+
